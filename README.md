@@ -4,7 +4,7 @@ install -> https://github.com/git-for-windows/git/releases/download/v2.43.0.wind
 
 install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK"
 
-optional install -> https://developer.nvidia.com/cuda-12-1-0-download-archive for gpu acceleration on onnx stuff
+do not install cuda runtime toolkit for manual install
 
 download and run the bat file from this repo
 
