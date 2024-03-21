@@ -6,7 +6,7 @@ install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxe
 
 optional install -> https://developer.nvidia.com/cuda-12-1-0-download-archive for gpu acceleration on onnx stuff
 
-download and run -> https://raw.githubusercontent.com/Enrop/okada/main/Okada.bat
+download and run the bat file from this repo
 
 optionally check official repo and see if requirements has been updated, if so delete the last python -m pip install line, and replace with
 
