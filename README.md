@@ -1,6 +1,6 @@
 install scoop for convenience
-https://github.com/ScoopInstaller/Install?tab=readme-ov-file#typical-installation
-or for a custom dir (what i do for installing on second drive)
+https://github.com/ScoopInstaller/Scoop?tab=readme-ov-file#what-does-scoop-do
+for a custom dir
 https://github.com/ScoopInstaller/Install?tab=readme-ov-file#advanced-installation
 
 ```powershell
