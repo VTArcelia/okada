@@ -20,7 +20,7 @@ install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK"
 
 Open Ungoogled-Chromium & go to chrome://flags 2,3,4,6 are mandatory, 1,5 are just dark mode
-![image](https://raw.githubusercontent.com/Enrop/okada/main/Ungoogled-Chromium.png?token=GHSAT0AAAAAACOEIV4X5EUQXHZOR4EX24UMZQA5EPQ)
+![reference image](https://raw.githubusercontent.com/Enrop/okada/main/Ungoogled-Chromium.png?token=GHSAT0AAAAAACOEIV4X5EUQXHZOR4EX24UMZQA5EPQ)
 
 Change ungoogled's startup to always launch https://127.0.0.1:18888/
 
