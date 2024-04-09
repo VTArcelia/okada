@@ -1,3 +1,5 @@
+felts version set for official repo and specifying all packages for first time running + what id recommend ie, scoop, and chrome:flags 
+
 install scoop for convenience
 https://github.com/ScoopInstaller/Scoop?tab=readme-ov-file#what-does-scoop-do
 for a custom dir
