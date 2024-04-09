@@ -1,4 +1,4 @@
-felts version set for official repo and specifying all packages for first time running + what id recommend ie, scoop, and chrome:flags 
+[felts version](https://github.com/MrFelt/voice-changer) set for [official repo](https://github.com/w-okada/voice-changer) and specifying all packages for first time running + what id recommend ie, scoop, installing most packages through scoop, and chrome:flags 
 
 install scoop for convenience
 https://github.com/ScoopInstaller/Scoop?tab=readme-ov-file#what-does-scoop-do
