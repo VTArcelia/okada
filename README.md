@@ -31,7 +31,7 @@ Optional/Future Proof:
 
 if official repo changes requirements & fails to build delete venv folder, go to server/requirements.txt
 
-find: torch & torchaudio, remove them,
+find: torch & torchaudio, remove them from the requirements.txt file,
 
 edit bat file replace the third python -m pip line (the one with uvicode) with
 
