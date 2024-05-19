@@ -35,7 +35,36 @@ if official repo changes requirements & fails to build delete venv folder, go to
 
 find: torch & torchaudio, remove them from the requirements.txt file,
 
+
 edit bat file replace the third python -m pip line (the one with uvicode) with
 
 python -m pip install requirements.txt
+
+
+
+
+
+Finally for shits and giggles to make this the most accessible voice changer
+create a bat file with the following in it
+
+```bat
+@echo off
+start /min "" "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe" -w _quake cmd /c "cd /d "Path\To\Voice\Changer\Folder\" && call\the\bat\from\this\repo"
+timeout /t 20 /nobreak >nul
+start "" "Path\to\Ungoogled\Chromium\If\Scoop\Use\Current\Folder\"
+```
+
+for the path to voice changer folder this is the one where the bat you got from this repo is.
+& for path to ungoogled ideally see if scoop made a shortcut on your start menu items if it did use that specifically since far easier
+
+Before doing this bat file open up windows terminal normally and go into settings > actions > Show\Hide Quake Menu, set a keybind ex: ctrl+shift+q
+
+right click bat file you just made, create shortcut, 
+
+ideally move the shortcut here %AppData%\Microsoft\Windows\Start Menu\Programs
+
+right click shortcut, create a shortcut key of your choice ex: ctrl+shift+v
+
+you can now call the voice changer whenever to open everything on its own from this setup, and to close it, press your keybind for show\hide quake mode, ctrl+c, y when prompted, ctrl+d
+
 
