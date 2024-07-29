@@ -1,5 +1,6 @@
 [felts version](https://github.com/MrFelt/voice-changer) set for [official repo](https://github.com/w-okada/voice-changer) and specifying all packages for first time running + what id recommend ie, scoop, installing most packages through scoop, and chrome:flags 
 
+### optional:
 install scoop for convenience
 https://github.com/ScoopInstaller/Scoop?tab=readme-ov-file#what-does-scoop-do
 for a custom dir
@@ -17,10 +18,12 @@ scoop bucket add extras
 scoop install ungoogled-chromium git
 ```
 
+### mandatory
 install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 
 install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK"
 
+- optional
 Open Ungoogled-Chromium & go to chrome://flags 2,3,4,6 are mandatory, 1,5 are just dark mode
 ![reference image](https://raw.githubusercontent.com/Enrop/okada/main/Ungoogled-Chromium.png?token=GHSAT0AAAAAACOEIV4X5EUQXHZOR4EX24UMZQA5EPQ)
 
@@ -29,12 +32,11 @@ Change ungoogled's startup to always launch https://127.0.0.1:18888/
 download and run the bat file from this repo, run ungoogled chromium from scoop folder
 
 
-Optional/Future Proof: 
+Optional/Future Proof/Revert to older state: 
 
-if official repo changes requirements & fails to build delete venv folder, go to server/requirements.txt
+if official repo changes requirements or changes the voice changer to a new layout and no longer builds, edit bat and target this repo instead https://github.com/Blanc-dot/voice-changer or for requirements, delete venv folder, go to server/requirements.txt
 
 find: torch & torchaudio, remove them from the requirements.txt file,
-
 
 edit bat file replace the third python -m pip line (the one with uvicode) with
 
@@ -55,9 +57,9 @@ start "" "Path\to\Ungoogled\Chromium\If\Scoop\Use\Current\Folder\"
 ```
 
 for the path to voice changer folder this is the one where the bat you got from this repo is.
-& for path to ungoogled ideally see if scoop made a shortcut on your start menu items if it did use that specifically since far easier
+& for path to ungoogled, use any chromium based browser, but ungoogled is rec
 
-Before doing this bat file open up windows terminal normally and go into settings > actions > Show\Hide Quake Menu, set a keybind ex: ctrl+shift+q
+Before doing this bat file open up windows terminal normally and go into settings > actions > Show\Hide Quake Menu, set a keybind example: ctrl+shift+q
 
 right click bat file you just made, create shortcut, 
 
