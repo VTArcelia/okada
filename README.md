@@ -29,7 +29,8 @@ Open Ungoogled-Chromium & go to chrome://flags 2,3,4,6 are mandatory, 1,5 are ju
 
 Change ungoogled's startup to always launch https://127.0.0.1:18888/
 
-download and run the bat file from this repo, run ungoogled chromium from scoop folder
+-------------------------------------------
+download and run the bat file from this repo, run ungoogled chromium (from scoop 'current' folder) or any chrome based browser
 
 
 Optional/Future Proof/Revert to older state: 
