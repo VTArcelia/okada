@@ -1,5 +1,16 @@
 [felts version](https://github.com/MrFelt/voice-changer) set for [official repo](https://github.com/w-okada/voice-changer) and specifying all packages for first time running + what id recommend ie, scoop, installing most packages through scoop, and chrome:flags 
 
+
+### mandatory
+install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
+
+install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK"
+
+-------------------------------------------
+download and run the bat file from this repo, run ungoogled chromium (from scoop 'current' folder) or any chrome based browser
+
+
+
 ### optional:
 install scoop for convenience
 https://github.com/ScoopInstaller/Scoop?tab=readme-ov-file#what-does-scoop-do
@@ -18,22 +29,16 @@ scoop bucket add extras
 scoop install ungoogled-chromium git
 ```
 
-### mandatory
-install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
 
-install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK"
-
-- optional
+- another optional thing
 Open Ungoogled-Chromium & go to chrome://flags 2,3,4,6 are mandatory, 1,5 are just dark mode
 ![reference image](https://raw.githubusercontent.com/Enrop/okada/main/Ungoogled-Chromium.png?token=GHSAT0AAAAAACOEIV4X5EUQXHZOR4EX24UMZQA5EPQ)
 
 Change ungoogled's startup to always launch https://127.0.0.1:18888/
 
--------------------------------------------
-download and run the bat file from this repo, run ungoogled chromium (from scoop 'current' folder) or any chrome based browser
 
 
-Optional/Future Proof/Revert to older state: 
+### troubleshooting
 
 if official repo changes requirements or changes the voice changer to a new layout and no longer builds, edit bat and target this repo instead https://github.com/Blanc-dot/voice-changer or for requirements, delete venv folder, go to server/requirements.txt
 
@@ -46,8 +51,8 @@ python -m pip install requirements.txt
 
 
 
+### extra for hidden terminal (that can be opened whenever) that also opens your browser after a long enough delay to make the web ui load
 
-Finally for shits and giggles to make this the most accessible voice changer
 create a bat file with the following in it
 
 ```bat
