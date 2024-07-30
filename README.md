@@ -4,7 +4,7 @@ mandatory instructions are basically same for Felt's repo, where you install pyt
 
 
 ### mandatory
-install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe make sure added to PATH
+install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe make sure added to PATH, do not have any version of conda installed as it will break the bat file
 
 install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK" (or windows 10 sdk)
 
