@@ -2,13 +2,13 @@
 
 
 ### mandatory
-install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe
+install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe make sure added to PATH
 
-install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK"
+install -> https://aka.ms/vs/17/release/vs_BuildTools.exe with the optional boxes named "MSVC VS 2022" and "Windows 11 SDK" (or windows 10 sdk)
 
--------------------------------------------
-download and run the bat file from this repo, run ungoogled chromium (from scoop 'current' folder) or any chrome based browser
+download and run the bat file from this repo called Okada.bat, answer what it asks, it'll do everything for you
 
+optional download QuickLaunch.bat which will skip update check and venv requirements check to launch without any user inputs
 
 
 ### optional:
