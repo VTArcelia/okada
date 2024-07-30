@@ -38,7 +38,7 @@ Change ungoogled's startup to always launch https://127.0.0.1:18888/
 
 
 
-### troubleshooting
+### troubleshooting install
 
 if official repo changes requirements or changes the voice changer to a new layout and no longer builds, edit bat and target this repo instead https://github.com/Blanc-dot/voice-changer or for requirements, delete venv folder, go to server/requirements.txt
 
@@ -46,9 +46,12 @@ find: torch & torchaudio, remove them from the requirements.txt file,
 
 edit bat file replace the third python -m pip line (the one with uvicode) with
 
+```
 python -m pip install requirements.txt
+```
 
 
+if randomly breaks from an install, you can delete the VENV folder that gets made, and re run the original Okada.bat script to remake the venv
 
 
 ### extra for hidden terminal (that can be opened whenever) that also opens your browser after a long enough delay to make the web ui load
