@@ -1,6 +1,6 @@
 [felts version](https://github.com/MrFelt/voice-changer) set for [official repo](https://github.com/w-okada/voice-changer) and specifying all packages for first time running + what id recommend ie, scoop, installing most packages through scoop, and chrome:flags 
 
-mandatory instructions are basically same for Felt's repo, where you install python and build tools, then run bat file from repo
+mandatory instructions are basically same for Felt's repo, where you install python and build tools, then run [bat file](https://github.com/MrFelt/voice-changer/releases) from his repo
 
 
 ### mandatory
