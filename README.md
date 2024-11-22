@@ -4,20 +4,24 @@ mandatory instructions are basically same for Felt's repo, where you install pyt
 
 
 ### mandatory
-install -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe make sure added to PATH, do not have any version of conda installed unless you are willing to tweak the bat file for your own needs. Run python --version in cmd to verify that you are actually on 3.10.11 if you aren't then your errors are self induced.
+install Python 3.10.11 -> https://www.python.org/ftp/python/3.10.11/python-3.10.11-amd64.exe make sure added to PATH, do not have any version of conda installed unless you are willing to tweak the bat file for your own needs. Run python --version in cmd to verify that you are actually on 3.10.11 if you aren't then your errors are self induced.
 
-install -> https://github.com/git-for-windows/git/releases/download/v2.46.0.windows.1/Git-2.46.0-64-bit.exe because git is needed
+install Git -> https://git-scm.com/downloads/win because git is needed
 
-install -> https://aka.ms/vs/17/release/vs_BuildTools.exe press "Desktop Development with C++) it should have the optional boxes named "MSVC VS 2022" and "Windows 11 SDK" (or windows 10 sdk) checked, that is all the prereqs.
+install Build Tools -> https://aka.ms/vs/17/release/vs_BuildTools.exe press "Desktop Development with C++) it should have the optional boxes named "MSVC VS 2022" and "Windows 11 SDK" (or windows 10 sdk) checked, that is all the prereqs.
+
 
 download and run the bat file from this repo called Okada.bat, answer what it asks, it'll do everything for you
 
-optional download QuickLaunch.bat which will skip update check and venv requirements check to launch without any user inputs
 
 
 ### optional:
+
+download QuickLaunch.bat which will skip update check and venv requirements check to launch without any user inputs
+
 install scoop for convenience
 https://github.com/ScoopInstaller/Scoop?tab=readme-ov-file#what-does-scoop-do
+
 for a custom dir
 https://github.com/ScoopInstaller/Install?tab=readme-ov-file#advanced-installation
 
@@ -33,6 +37,7 @@ scoop bucket add extras
 scoop install ungoogled-chromium git
 ```
 
+note: if you installed git above you can skip the git from scoop, I prefer getting as much through scoop as possible
 
 - another optional thing
 Open Ungoogled-Chromium & go to chrome://flags 2,3,4,6 are mandatory, 1,5 are just dark mode
