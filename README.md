@@ -63,28 +63,11 @@ python -m pip install requirements.txt
 if randomly breaks from an install, you can delete the VENV folder that gets made, and re run the original Okada.bat script to remake the venv
 
 
-### extra for hidden terminal (that can be opened whenever) that also opens your browser after a long enough delay to make the web ui load
+### extra for setting Silence Front to be permanently off
 
-create a bat file with the following in it
+navigate through the following folders, voice-changer/server/voice_changer/RVC 
 
-```bat
-@echo off
-start /min "" "%LOCALAPPDATA%\Microsoft\WindowsApps\wt.exe" -w _quake cmd /c "cd /d "Path\To\Voice\Changer\Folder\" && call\the\bat\from\this\repo"
-timeout /t 20 /nobreak >nul
-start "" "Path\to\Ungoogled\Chromium\If\Scoop\Use\Current\Folder\"
-```
+find RVCSettings.py, change  silenceFront: int = 1 to  silenceFront: int = 0, 
+aka change the 1 to a 0 only on silencefront
 
-for the path to voice changer folder this is the one where the bat you got from this repo is.
-& for path to ungoogled, use any chromium based browser, but ungoogled is rec
-
-Before doing this bat file open up windows terminal normally and go into settings > actions > Show\Hide Quake Menu, set a keybind example: ctrl+shift+q
-
-right click bat file you just made, create shortcut, 
-
-ideally move the shortcut here %AppData%\Microsoft\Windows\Start Menu\Programs
-
-right click shortcut, create a shortcut key of your choice ex: ctrl+shift+v
-
-you can now call the voice changer whenever to open everything on its own from this setup, and to close it, press your keybind for show\hide quake mode, ctrl+c, y when prompted, ctrl+d
-
-
+Now you will have better results when using the Rest API. (my preferred choice)
