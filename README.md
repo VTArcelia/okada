@@ -41,7 +41,7 @@ note: if you installed git above you can skip the git from scoop, I prefer getti
 
 - another optional thing
 Open Ungoogled-Chromium & go to chrome://flags 2,3,4,6 are mandatory, 1,5 are just dark mode
-![reference image](https://raw.githubusercontent.com/Blanc-dot/okada/main/Ungoogled-Chromium.png)
+![reference image](https://raw.githubusercontent.com/VTArcelia/okada/main/Ungoogled-Chromium.png)
 
 Change ungoogled's startup to always launch https://127.0.0.1:18888/
 
@@ -49,7 +49,7 @@ Change ungoogled's startup to always launch https://127.0.0.1:18888/
 
 ### troubleshooting install
 
-if official repo changes requirements or changes the voice changer to a new layout and no longer builds, edit bat and target this repo instead https://github.com/Blanc-dot/voice-changer or for requirements, delete venv folder, go to server/requirements.txt
+if official repo changes requirements or changes the voice changer to a new layout and no longer builds, edit bat and target this repo instead https://github.com/VTArcelia/voice-changer or for requirements, delete venv folder, go to server/requirements.txt
 
 find: torch & torchaudio, remove them from the requirements.txt file,
 
