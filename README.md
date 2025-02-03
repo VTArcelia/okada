@@ -8,7 +8,7 @@ install Python 3.10.11 -> https://www.python.org/ftp/python/3.10.11/python-3.10.
 
 install Git -> https://git-scm.com/downloads/win because git is needed
 
-install Build Tools -> https://aka.ms/vs/17/release/vs_BuildTools.exe press "Desktop Development with C++) it should have the optional boxes named "MSVC VS 2022" and "Windows 11 SDK" (or windows 10 sdk) checked, that is all the prereqs.
+install Build Tools -> https://aka.ms/vs/17/release/vs_BuildTools.exe press "Desktop Development with C++" it should have the optional boxes named "MSVC VS 2022" and "Windows 11 SDK" (or windows 10 sdk) checked, that is all the prereqs.
 
 
 download and run the bat file from this repo called Okada.bat, answer what it asks, it'll do everything for you
